@@ -1,23 +1,15 @@
 body {
-    overflow: hidden;
+    margin: 0;
 }
 
 div.container {
-    width: 100%;
     border: 1px solid black;
-    margin: 0 auto;
-    overflow: hidden;
 }
 
 header, footer {
     background-color: #2E2E2E;
     color: grey;
-    padding: 50px;
-    text-align: left;
-    height: 60px;
+    text-decoration: none;
 }
-li {
-    float: left;
-    max-width: 160px;
-    list-style-type: none;
-}
+
+
