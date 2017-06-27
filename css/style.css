@@ -6,10 +6,16 @@ div.container {
     border: 1px solid black;
 }
 
-header, footer {
+header, footer, a {
     background-color: #2E2E2E;
     color: grey;
     text-decoration: none;
 }
 
+.div1 {
+    padding: 15px 6px 25px 15px;
+}
 
+.div2{
+border-bottom: 5px red;
+}
