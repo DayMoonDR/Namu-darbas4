@@ -32,7 +32,6 @@ header, footer, a {
     background-color: white;
     padding: 40px 0 20px 0;
     color: #9F9F9F;
-    font-size: 10px;
 }
 
 .div2_1 a {
@@ -49,15 +48,9 @@ header, footer, a {
 }
 
 .nobodysfool {
-    padding: 45px 0 45px 0;
-    clear: left;
+    padding: 45px 15px;
 }
 
 button {
-    float: left;
-}
-
-
-.container-2 {
 
 }
