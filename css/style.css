@@ -12,14 +12,11 @@ header, footer, a {
     text-decoration: none;
 }
 
-.a_border_left {
 
+.div1 a{
+    padding: 15px 6px 25px 15px;
     border-left: 1px solid grey;
     padding: 0 6px 0 6px;
-}
-
-.div1 {
-    padding: 15px 6px 25px 15px;
 }
 
 .div2 {
@@ -48,6 +45,7 @@ header, footer, a {
 }
 
 .nobodysfool {
+    clear: left;
     padding: 45px 15px;
 }
 
