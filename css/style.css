@@ -45,9 +45,19 @@ header, footer, a {
 }
 
 #width100 {
-    padding-right: 500px;
+
 }
 
-.container-2 {
+.nobodysfool {
+    padding: 45px 0 45px 0;
     clear: left;
+}
+
+button {
+    float: left;
+}
+
+
+.container-2 {
+
 }
