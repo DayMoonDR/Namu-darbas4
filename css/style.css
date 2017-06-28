@@ -12,10 +12,42 @@ header, footer, a {
     text-decoration: none;
 }
 
+.a_border_left {
+
+    border-left: 1px solid grey;
+    padding: 0 6px 0 6px;
+}
+
 .div1 {
     padding: 15px 6px 25px 15px;
 }
 
-.div2{
-border-bottom: 5px red;
+.div2 {
+    padding: 0 15px 0 15px;
+}
+
+#a_border_bottom_id {
+    border-bottom: 5px solid #0099FF;
+    float: left;
+    background-color: white;
+    padding: 40px 0 20px 0;
+    color: #9F9F9F;
+    font-size: 10px;
+}
+
+.div2_1 a {
+    float: left;
+    padding: 40px 20px 20px 20px;
+    background-color: white;
+    border-bottom: 5px solid #F1F1F1;
+    color: #2E2E2E;
+
+}
+
+#width100 {
+    padding-right: 500px;
+}
+
+.container-2 {
+    clear: left;
 }
