@@ -103,17 +103,26 @@ input {
     color: white;
 }
 
-.container-2 .div2 img{
+.container-2 {
+    overflow: auto;
     width: 100%;
     background-color: red;
-    float:left;
 }
-
 .div2 h1 p {
-    overflow: auto;
+
+}
+.div2 {
+    float: left;
 }
 
 img {
-    size: 50px;
+    float: right;
+    height: 550px;
+    width: 440px;
+    padding: 15px;
+}
+
+.container-3 {
+    clear: left;
 }
 
