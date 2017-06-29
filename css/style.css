@@ -7,6 +7,7 @@ div.container {
 }
 
 header, footer, a {
+    width: 100%;
     background-color: #2E2E2E;
     color: grey;
     text-decoration: none;
@@ -43,6 +44,7 @@ ul li {
     float: left;
     padding: 0 20px 20px 0;
 }
+
 li a {
     color: #2E2E2E;
 }
@@ -63,6 +65,55 @@ li a:hover {
 
 .nobodysfool {
     clear: left;
+    overflow: hidden;
 }
 
+.firsthalf {
+    padding: 45px 15px 45px 15px;
+    float: left;
+}
+
+.firsthalf, h1, p {
+    margin: 0;
+    max-width: 50%;
+}
+
+p {
+    color: #999999;
+}
+
+.secondhalf {
+    padding: 70px 15px 10px 0;
+    float: right;
+}
+
+input {
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    border-style: none;
+    color: #999999;
+    width: 215px;
+    padding-left: 8px;
+}
+
+.first_button {
+    background-color: #0099FF;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+
+.container-2 .div2 img{
+    width: 100%;
+    background-color: red;
+    float:left;
+}
+
+.div2 h1 p {
+    overflow: auto;
+}
+
+img {
+    size: 50px;
+}
 
