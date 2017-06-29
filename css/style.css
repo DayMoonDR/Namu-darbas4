@@ -43,14 +43,17 @@ ul li {
     float: left;
     padding: 0 20px 20px 0;
 }
-ul a:link {
-    
-    background-color: transparent;
-    text-decoration: none;
-    text-decoration-color: black;
+li a {
+    color: #2E2E2E;
 }
 
-ul a:hover {
+li a:link {
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+li a:hover {
     color: #9F9F9F;
     background-color: transparent;
     text-decoration: none;
