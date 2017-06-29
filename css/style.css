@@ -12,43 +12,54 @@ header, footer, a {
     text-decoration: none;
 }
 
+.div1 {
+    padding: 15px 6px 25px 15px
+}
 
-.div1 a{
-    padding: 15px 6px 25px 15px;
+#no_border_left {
+    border-left: none;
+}
+
+.div1 a {
     border-left: 1px solid grey;
     padding: 0 6px 0 6px;
 }
 
-.div2 {
-    padding: 0 15px 0 15px;
+nav {
+    padding: 0 15px;
+    overflow: hidden;
 }
 
-#a_border_bottom_id {
-    border-bottom: 5px solid #0099FF;
+nav ul {
+    padding: 40px 0 0 0;
+    margin: 0;
     float: left;
-    background-color: white;
-    padding: 40px 0 20px 0;
-    color: #9F9F9F;
-}
-
-.div2_1 a {
-    float: left;
-    padding: 40px 20px 20px 20px;
-    background-color: white;
+    width: 100%;
     border-bottom: 5px solid #F1F1F1;
-    color: #2E2E2E;
-
 }
 
-#width100 {
+ul li {
+    list-style-type: none;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+ul a:link {
+    
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration-color: black;
+}
 
+ul a:hover {
+    color: #9F9F9F;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: 5px solid #0099FF;
+    padding-bottom: 20px;
 }
 
 .nobodysfool {
     clear: left;
-    padding: 45px 15px;
 }
 
-button {
 
-}
