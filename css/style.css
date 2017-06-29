@@ -47,7 +47,11 @@ li a {
     color: #2E2E2E;
 }
 
+li a:link {
+    background-color: transparent;
+    text-decoration: none;
 
+}
 
 li a:hover {
     color: #9F9F9F;
