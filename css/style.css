@@ -153,9 +153,35 @@ span {
     height: 100%;
 }
 
-
 .container-3 {
     height: 500px;
     clear: left;
+}
+
+#container3_div1 {
+    float: left;
+    padding: 0 15px 0 0;
+}
+
+#container3_div2 {
+    float: right;
+    width: 45%;
+    height: 100%;
+    padding: 40px 15px;
+}
+
+.container3_div2_div {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.container3_div2_div2 {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+.container3_div2_div, .container3_div2_div2 .container3_img {
+    margin: auto;
 }
 
