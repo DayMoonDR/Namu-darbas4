@@ -174,14 +174,12 @@ span {
     width: 50%;
     height: 50%;
     float: left;
+    
 }
 
 .container3_div2_div2 {
     width: 50%;
     height: 50%;
     float: right;
-}
-.container3_div2_div, .container3_div2_div2 .container3_img {
-    margin: auto;
 }
 
