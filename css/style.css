@@ -76,12 +76,12 @@ li a:hover {
     float: left;
 }
 
-.firsthalf, h1, p {
+.firsthalf, h1, .p1 {
     margin: 0;
 
 }
 
-p {
+#container2 {
     color: #999999;
 }
 
@@ -122,17 +122,18 @@ input {
 }
 
 .table12 {
-    padding: 150px 15px 0 15px;
+    padding: 150px 15px 100px 15px;
     float: left;
     width: 40%;
 }
 
-.table123, h1, p {
+.table123, h1, #container2 {
     width: 80%;
 }
 
-.table12 p {
+.table12 #container2 {
     padding: 18px 0 20px 0;
+    margin: 0;
 }
 
 span {
@@ -167,14 +168,14 @@ span {
     float: right;
     width: 45%;
     height: 100%;
-    padding: 40px 15px;
+    padding: 30px 15px;
 }
 
 .container3_div2_div {
     width: 50%;
     height: 50%;
     float: left;
-    
+
 }
 
 .container3_div2_div2 {
@@ -183,3 +184,51 @@ span {
     float: right;
 }
 
+.container3_img {
+    text-align: center;
+}
+
+.p_container3 {
+    text-align: center;
+    color: #0099FF;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.p2_container3 {
+    color: #666666;
+    text-align: center;
+    margin: 15px;
+    letter-spacing: -1px;
+}
+
+.container-4 {
+    overflow: auto;
+    border-left: solid #0099FF;
+    border-width: 10px;
+    margin: 15px;
+    background-color: #E0E0E0;
+    width: 96%;
+}
+
+#container4_div1 {
+    width: 60%;
+    float: left;
+    padding: 35px 15px;
+}
+#container4_h1, #container4_p {
+    margin: 0;
+}
+#container4_button {
+    float: left;
+    padding: 35px 15px;
+}
+
+#container4_button .first_button {
+    height: 60px;
+    width: 300px;
+    font-size: 27px;
+    font-family: serif;
+    color: #E0E0E0
+
+}
