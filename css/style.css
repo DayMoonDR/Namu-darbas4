@@ -4,12 +4,12 @@ body {
 
 .container {
     border: 1px solid black;
-    height: 1860px;
+    overflow: auto;
     width: 1000px;
     margin: auto;
 }
 
-header, footer, a {
+header, a {
     width: 100%;
     background-color: #2E2E2E;
     color: grey;
@@ -29,12 +29,12 @@ header, footer, a {
     padding: 0 6px 0 6px;
 }
 
-nav {
+#container_list nav {
     padding: 0 15px;
     overflow: hidden;
 }
 
-nav ul {
+#container_list nav ul {
     padding: 40px 0 0 0;
     margin: 0;
     float: left;
@@ -42,23 +42,23 @@ nav ul {
     border-bottom: 5px solid #F1F1F1;
 }
 
-ul li {
+#container_ list, ul li {
     list-style-type: none;
     float: left;
     padding: 0 20px 20px 0;
 }
 
-li a {
+#container_list, li a {
     color: #2E2E2E;
 }
 
-li a:link {
+#container_list, li a:link {
     background-color: transparent;
     text-decoration: none;
 
 }
 
-li a:hover {
+#container_list li a:hover {
     color: #9F9F9F;
     background-color: transparent;
     text-decoration: none;
@@ -146,7 +146,6 @@ span {
     padding: 10px 15px 0 0;
     width: 55%;
     height: 430px;
-
 }
 
 #img_1 img {
@@ -216,9 +215,11 @@ span {
     float: left;
     padding: 30px 15px;
 }
+
 #container4_h1, #container4_p {
     margin: 0;
 }
+
 #container4_button {
     float: left;
     padding: 30px 15px;
@@ -231,16 +232,130 @@ span {
     font-family: serif;
     color: #E0E0E0
 }
+
 .container-5 {
+    padding: 0 0 0 15px;
+    overflow: auto;
     clear: left;
     border-top: 5px solid black;
     background-color: #1A1A1A;
 }
 
 .container5_div {
-padding: 15Px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    float: left;
+    width: 230px;
 }
 
-.container5_h1 {
+.container5_h1 h1 {
+    color: white;
+    font-size: smaller;
+    font-family: "serif";
+    padding: 40px 0 20px 0;
+}
 
+#container5_picture215x90 {
+    border: 5px solid #1A1A1A;
+    width: 215px;
+    height: 90px;
+    outline-style: double;
+    outline-color: #555555;
+    outline-width: 1px;
+}
+
+.container5_div .p2_container3 {
+    text-align: left;
+    margin: 20px 40px 10px 0;
+}
+
+.container5_a {
+    float: right;
+    text-align: right;
+    color: #0099FF;
+    background-color: inherit;
+    font-size: small;
+}
+
+#container5_list ul li:before {
+    content: "\00BB \0020";
+    padding: 0 10px 0 0;
+    color: white;
+}
+
+#container5_list ul {
+    margin: auto;
+    padding: 0;
+}
+
+#container5_list li {
+    clear: left;
+    border-bottom: 1px solid #232323;
+    padding: 0 0 7px 0;
+    width: 100%;
+}
+
+#container5_list a {
+    color: #0099FF;
+}
+
+#container5_list #container5_list_noborder {
+    border-bottom: none;
+}
+
+.container5_h1second_p h1 {
+    color: #666666;
+    font-size: large;
+    margin: 0;
+}
+
+.container5_h1second_p p {
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-size: small;
+    color: #666666;
+}
+
+.container5_h1second_p .container5_psmall {
+    font-size: x-small;
+    color: #666666;
+}
+
+#container5_input input {
+    background-color: #232323;
+    margin: 0 0 10px 0;
+}
+
+#container5_inputmessage {
+    padding-bottom: 85px;
+}
+
+#container5_button {
+    height: 30px;
+    background-color: #0099FF;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-family: bold;
+    width: 75px;
+}
+
+footer {
+    border-top: 2px solid #2D2D2D;
+    background-color: #222222;
+
+}
+
+#footerone {
+    float: left;
+}
+
+#footerone, #footertwo{
+    padding: 25px 15px;
+    font-size: small;
+    color: #666666
+}
+
+#footertwo {
+    text-align: right;
 }
