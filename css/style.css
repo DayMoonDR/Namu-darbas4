@@ -78,7 +78,10 @@ header, a {
 
 .firsthalf, h1, .p1 {
     margin: 0;
+}
 
+.p1 {
+    color: #999999;
 }
 
 #container2 {
