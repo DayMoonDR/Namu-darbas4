@@ -14,10 +14,13 @@ header, a {
     background-color: #2E2E2E;
     color: grey;
     text-decoration: none;
+    overflow: auto;
 }
 
 .div1 {
-    padding: 15px 6px 25px 15px
+    padding: 15px 6px 25px 15px;
+    float: left;
+
 }
 
 #no_border_left {
@@ -25,13 +28,46 @@ header, a {
 }
 
 .div1 a {
-    border-left: 1px solid grey;
     padding: 0 6px 0 6px;
+    border-left: 1px solid #9F9F9F;
+    font-size: small;
+}
+
+#icons {
+    float: right;
+    padding: 10px 15px;
+}
+
+#icons .icons {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    float: left;
+    margin: 5px;
+}
+
+.icons .fa {
+    display: ruby-base;
+    margin: 7px;
+    vertical-align: sub;
+    color: white;
+    background-color: inherit;
+}
+
+#icons .icons:link {
+    background-color: transparent;
+}
+
+
+#icons .icons:hover {
+    background-color: red;
 }
 
 #container_list nav {
     padding: 0 15px;
     overflow: hidden;
+    clear: left;
 }
 
 #container_list nav ul {
@@ -339,7 +375,6 @@ span {
     border-radius: 5px;
     border-style: none;
     color: white;
-    font-family: bold;
     width: 75px;
 }
 
@@ -353,7 +388,7 @@ footer {
     float: left;
 }
 
-#footerone, #footertwo{
+#footerone, #footertwo {
     padding: 25px 15px;
     font-size: small;
     color: #666666
