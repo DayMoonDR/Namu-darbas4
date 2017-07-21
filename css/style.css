@@ -59,7 +59,6 @@ header, a {
     background-color: transparent;
 }
 
-
 #icons .icons:hover {
     background-color: red;
 }
@@ -381,19 +380,32 @@ span {
 footer {
     border-top: 2px solid #2D2D2D;
     background-color: #222222;
+    height: 40px;
+    width: 100%;
+    display: table;
 
+}
+
+.displaytable {
+
+    vertical-align: middle;
+    width: 100%;
 }
 
 #footerone {
     float: left;
+    width: 50%;
 }
 
 #footerone, #footertwo {
-    padding: 25px 15px;
+
+    vertical-align: middle;
     font-size: small;
     color: #666666
 }
 
 #footertwo {
     text-align: right;
+    float: right;
+    width: 50%;
 }
